@@ -4,7 +4,7 @@ A local B2B SaaS support project: reusable knowledge, permission-checked request
 
 > **Current stage:** Local portal, Ollama chat, semantic retrieval and KCS-oriented editorial workflow implemented. Unanswered questions become knowledge gaps. An editor can draft, review, approve, version and archive articles. Only current customer-approved knowledge is searched. RaumPilot and all customers are fictional; this is a portfolio demonstration, not a production support service.
 
-![RaumPilot knowledge management with approved articles, source index and feedback](docs/images/knowledge-workflow.png)
+![RaumPilot knowledge management with approved articles, source index and feedback](docs/images/raumpilot-portal.png)
 
 ## The product
 
