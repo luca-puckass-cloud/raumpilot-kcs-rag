@@ -1,0 +1,14 @@
+[
+  {"question":"Ich sehe noch keine Hotelangebote. Woran liegt das?","expected":"KB-001"},
+  {"question":"Haben die angeschriebenen Häuser schon reagiert?","expected":"KB-001"},
+  {"question":"Ich warte auf die Vorschläge für mein Seminar. Wo bleiben sie?","expected":"KB-001"},
+  {"question":"Ist das bereits fest zugesagt oder nur ein unverbindlicher Vorschlag?","expected":"KB-002"},
+  {"question":"Habe ich schon eine Reservierung, wenn ich eine Übersicht erhalten habe?","expected":"KB-002"},
+  {"question":"Die Annahme wurde abgeschickt. Darf ich von einer festen Zusage ausgehen?","expected":"KB-002"},
+  {"question":"Wie lege ich einen neuen Vorgang für unsere Tagung an?","expected":"KB-003"},
+  {"question":"Wo beginne ich, wenn ich Räume für mein Team suchen möchte?","expected":"KB-003"},
+  {"question":"Welche Angaben braucht es am Anfang für ein Seminar?","expected":"KB-003"},
+  {"question":"Kann ich eine Rechnung rückwirkend aufteilen?","expected":null},
+  {"question":"Wie exportiere ich alle Kontakte nach Salesforce?","expected":null},
+  {"question":"Kann ich mein Haustier mitbringen?","expected":null}
+]

@@ -1,0 +1,9 @@
+{
+  "name": "raumpilot-kcs-rag",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local B2B SaaS support portal with KCS-oriented editorial workflow, semantic retrieval and Ollama RAG chat.",
+  "scripts": {"start":"node src/server.mjs","test":"node --test tests/*.test.mjs"},
+  "engines": {"node":">=20"}
+}

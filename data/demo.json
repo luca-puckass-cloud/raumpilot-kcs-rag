@@ -1,0 +1,28 @@
+{
+  "fictional": true,
+  "snapshot_at": "2026-10-14T08:00:00Z",
+  "companies": [
+    {"id":"company-01","name":"Nordlicht Consulting"},
+    {"id":"company-02","name":"Bergblick Systems"},
+    {"id":"company-03","name":"Hafenwerk Studio"},
+    {"id":"company-04","name":"Waldpfad Services"}
+  ],
+  "users": [
+    {"id":"user-lena","name":"Lena","company_id":"company-01"},
+    {"id":"user-omar","name":"Omar","company_id":"company-01"},
+    {"id":"user-mia","name":"Mia","company_id":"company-02"},
+    {"id":"user-ben","name":"Ben","company_id":"company-03"},
+    {"id":"user-noah","name":"Noah","company_id":"company-04"},
+    {"id":"user-knowledge","name":"Robin · Wissenspflege","company_id":"company-01","role":"knowledge-manager"}
+  ],
+  "requests": [
+    {"id":"RFP-1042","company_id":"company-01","allowed_user_ids":["user-lena"],"status":"awaiting_responses","hotels_contacted":5,"responses_received":2,"offers":[{"id":"OFFER-001","customer_visible":false},{"id":"OFFER-002","customer_visible":false}],"booking_reference":null,"next_review_at":"2026-10-15T09:00:00Z","updated_at":"2026-10-14T07:50:00Z"},
+    {"id":"RFP-1043","company_id":"company-01","allowed_user_ids":["user-lena","user-omar"],"status":"offers_available","hotels_contacted":4,"responses_received":3,"offers":[{"id":"OFFER-003","customer_visible":true},{"id":"OFFER-004","customer_visible":true},{"id":"OFFER-005","customer_visible":false}],"booking_reference":null,"next_review_at":null,"updated_at":"2026-10-14T07:30:00Z"},
+    {"id":"RFP-1044","company_id":"company-01","allowed_user_ids":["user-lena"],"status":"booking_pending","hotels_contacted":3,"responses_received":1,"offers":[{"id":"OFFER-006","customer_visible":true}],"booking_reference":null,"next_review_at":"2026-10-15T10:00:00Z","updated_at":"2026-10-14T07:00:00Z"},
+    {"id":"RFP-1045","company_id":"company-01","allowed_user_ids":["user-omar"],"status":"booking_confirmed","hotels_contacted":2,"responses_received":1,"offers":[{"id":"OFFER-007","customer_visible":true}],"booking_reference":"BOOK-DEMO-001","next_review_at":null,"updated_at":"2026-10-14T06:45:00Z"},
+    {"id":"RFP-2042","company_id":"company-02","allowed_user_ids":["user-mia"],"status":"booking_confirmed","hotels_contacted":4,"responses_received":2,"offers":[{"id":"OFFER-008","customer_visible":true},{"id":"OFFER-009","customer_visible":true}],"booking_reference":"BOOK-DEMO-002","next_review_at":null,"updated_at":"2026-10-14T06:00:00Z"},
+    {"id":"RFP-3042","company_id":"company-03","allowed_user_ids":["user-ben"],"status":"draft","hotels_contacted":0,"responses_received":0,"offers":[],"booking_reference":null,"next_review_at":null,"updated_at":"2026-10-14T05:30:00Z"},
+    {"id":"RFP-4042","company_id":"company-04","allowed_user_ids":["user-noah"],"status":"cancelled","hotels_contacted":2,"responses_received":1,"offers":[{"id":"OFFER-010","customer_visible":true}],"booking_reference":null,"next_review_at":null,"updated_at":"2026-10-14T05:00:00Z"},
+    {"id":"RFP-4043","company_id":"company-04","allowed_user_ids":["user-noah"],"status":"awaiting_responses","hotels_contacted":6,"responses_received":0,"offers":[],"booking_reference":null,"next_review_at":"2026-10-15T11:00:00Z","updated_at":"2026-10-14T04:30:00Z"}
+  ]
+}
